@@ -1,54 +1,49 @@
-## # Joel Morrison
+<a href="https://joelmorrison121-cpu.github.io/"><img src="assets/banner.png" alt="Joel Morrison: Computer Science, DCU, Dublin. Curiosity into code. Ideas into useful things." width="100%"></a>
 
-**Computer Science at DCU · Dublin, Ireland**
+I'm a second-year Computer Science student at DCU who builds things to understand how they work, from neural networks that learn to drive to web apps made at hackathons. I'm drawn to Python, practical AI and interfaces that feel considered.
 
-I build projects to understand how things work—from neural networks that learn to drive to web applications made at hackathons. I’m interested in Python, practical AI and thoughtful interfaces.
+**[Portfolio](https://joelmorrison121-cpu.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/joel-morrison-16a304389/)** · **[Email](mailto:joelmorrison121@gmail.com)**
 
-[Portfolio](https://joelmorrison121-cpu.github.io/) · [LinkedIn](https://www.linkedin.com/in/joel-morrison-16a304389/) · [Email](mailto:joelmorrison121@gmail.com)
+<br>
 
-## Selected work
+<a href="https://github.com/joelmorrison121-cpu/AI_racer"><img src="assets/from-failure-to-first-lap.png" alt="From failure to first lap: generation 1 drivers crash at random, generation 13 clears the first corner, generation 16 completes a full lap." width="100%"></a>
 
-### [AI Racer](https://github.com/joelmorrison121-cpu/AI_racer)
+<sub>**[AI Racer](https://github.com/joelmorrison121-cpu/AI_racer)**: a Python racing game where 30 neural-network drivers per generation learn by selection and mutation. Four tracks, a race-the-champion mode, and experiments on tracks the drivers have never seen. [Watch the demo ↗](https://joelmorrison121-cpu.github.io/ai-racing.html)</sub>
 
-A playable racing simulator where neural-network drivers improve through selection and mutation. Includes live training, curved circuits, saved champions and experiments testing performance on unseen tracks.
+<br>
 
-**Python · Pygame · Neuroevolution**
-[Watch the demo and read the build notes](https://joelmorrison121-cpu.github.io/ai-racing.html)
+<table>
+  <tr>
+    <td width="33%"><a href="https://github.com/joelmorrison121-cpu/AI_racer"><img src="assets/cover-ai-racer.png" alt="AI Racer: neural-network drivers that learn to race" width="100%"></a></td>
+    <td width="33%"><a href="https://joelmorrison121-cpu.github.io/"><img src="assets/cover-portfolio.png" alt="Portfolio: hand-built, warm and minimal" width="100%"></a></td>
+    <td width="33%"><a href="https://splitpay-pzjgc2pw.manus.space"><img src="assets/cover-split.png" alt="Split: one bill, a payment link each" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>Python · Pygame · neuroevolution.<br><a href="https://github.com/joelmorrison121-cpu/AI_racer">Code</a> · <a href="https://joelmorrison121-cpu.github.io/ai-racing.html">Build notes</a></sub></td>
+    <td valign="top"><sub>HTML, CSS and JavaScript with a WebGL ASCII background.<br><a href="https://joelmorrison121-cpu.github.io/">Live site</a> · <a href="https://github.com/joelmorrison121-cpu/joelmorrison121-cpu.github.io">Code</a></sub></td>
+    <td valign="top"><sub>Hackathon bill-splitter. I built the React frontend.<br><a href="https://splitpay-pzjgc2pw.manus.space">Demo</a> · <a href="https://github.com/joelmorrison121-cpu/SolanaHackathon26">Backend</a></sub></td>
+  </tr>
+</table>
 
-### [Personal portfolio](https://github.com/joelmorrison121-cpu/joelmorrison121-cpu.github.io)
+<img src="assets/tech.png" alt="Python, C, JavaScript, HTML, CSS, Git" width="100%">
 
-A home for my projects, experiments and the lessons behind them. Built with HTML, CSS and JavaScript, with an interactive ASCII background and a warm, understated visual style.
+### On my workbench
 
-**HTML · CSS · JavaScript · WebGL**
-[Visit the website](https://joelmorrison121-cpu.github.io/)
+Teaching AI Racer's drivers to handle hairpins they've never seen. Drivers trained on the hardest track generalise best; one now laps all four circuits. Next I'm trying a different track each generation. Up next: a Huffman file compressor in C.
 
-### [Split](https://github.com/joelmorrison121-cpu/SolanaHackathon26)
+Away from the keyboard, I'm on the council of DCU Photography Society.
 
-A team hackathon prototype for splitting bills through individual payment links. I worked on the React frontend; the shared repository contains the backend API and its tests.
+<details>
+<summary><b>More about my projects</b></summary>
 
-**React · JavaScript · Team collaboration**
-[Explore the frontend demo](https://splitpay-pzjgc2pw.manus.space)
+<br>
 
-## Currently exploring
+**AI Racer.** Each car sees through seven distance rays plus its speed and the direction to the next checkpoint, giving 11 inputs to an 11 → 8 → 3 network. Weights stay fixed during a lap; learning happens between generations, as the best two networks are kept and the rest are mutated copies or fresh random drivers. Version 2 added curved tracks built from a centre-line path, checkpoints at any angle, progress measured along the route, a reward for faster laps, save/resume, live progress graphs and multi-seed experiments.
 
-* How evolutionary drivers generalise to unfamiliar tracks.
-* Building interfaces that are clear, responsive and enjoyable to use.
-* Strengthening my foundations in algorithms, systems programming and software testing.
+**Portfolio.** No framework and no build step. It has keyboard-friendly navigation, respects reduced-motion settings, and the videos don't download until you press play.
 
-I’m open to software internships, collaborative projects and opportunities to learn through building.
+**Split.** A five-person hackathon team at BUILD IRL Vol. 1. The backend creates bills, issues per-person payment links and has ten passing tests. We didn't join the frontend and backend up before the deadline, which taught me to agree API contracts early.
 
+**Leap.** My own entry at the Manus AI Dublin Build Challenge: a wait-or-switch commute planner for Dublin. [Try it ↗](https://commutecut-jcdm7heo.manus.space/)
 
-<!--
-**joelmorrison121-cpu/joelmorrison121-cpu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</details>
