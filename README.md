@@ -31,8 +31,6 @@ I'm a second-year Computer Science student at DCU who builds things to understan
 
 Teaching AI Racer's drivers to handle hairpins they've never seen. Drivers trained on the hardest track generalise best; one now laps all four circuits. Next I'm trying a different track each generation. Up next: a Huffman file compressor in C.
 
-Away from the keyboard, I'm on the council of DCU Photography Society.
-
 <details>
 <summary><b>More about my projects</b></summary>
 
